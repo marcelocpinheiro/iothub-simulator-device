@@ -1,0 +1,16 @@
+{
+  "name": "virtual_device",
+  "version": "1.0.0",
+  "description": "Virtual device to iot hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcelo Pinheiro",
+  "license": "ISC",
+  "dependencies": {
+    "azure-iot-device-amqp": "^1.12.3",
+    "azure-iothub": "^1.12.3",
+    "dotenv": "^8.2.0"
+  }
+}
